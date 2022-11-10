@@ -1,4 +1,7 @@
 ﻿# proyectocodehouse
+ 
+ let nombre = prompt(Cual es tu nombre?);
+ 
 //*/*Selectores
 // let nombre = document.querySelector("#nombre");
 let estado = document.querySelector("#estado");
