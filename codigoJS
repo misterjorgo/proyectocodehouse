@@ -87,3 +87,49 @@ for (let i = 2000; i < 2023; i++) {
 //   document.querySelector("#modelo").appendChild(modelosGenerador);
 //   i += 1000;
 // }
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Autos dot com</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <form action="" id="buscador">
+            <select name="" id="estado">
+              <option value="">Selecciona Estado</option>
+              <option value="Nuevo">Nuevos</option>
+              <option value="Usado">Usados</option>
+            </select>
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" />
+            <select name="" id="modelo">
+              <option value="">Selecciona Modelo</option>
+            </select>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div id="carros-contenido"></div>
+        </div>
+      </div>
+    </div>
+    <script src="carros.js"></script>
+    <script src="index.js"></script>
+    <script src="Funcionflitrar.js"></script>
+  </body>
+</html>
